@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71065ba3-eba4-4f53-96cd-71b713b38a71" name="Default Changelist" comment="" />
+    <list default="true" id="71065ba3-eba4-4f53-96cd-71b713b38a71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_status.php" beforeDir="false" afterPath="$PROJECT_DIR$/list_status.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/testovoe_zadanie.git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SWSSJrL9J05bYIxWMEDPVCP7Li" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,6 +68,8 @@
       <workItem from="1571728810603" duration="3367000" />
       <workItem from="1571734374311" duration="7439000" />
       <workItem from="1571743497710" duration="23720000" />
+      <workItem from="1571821215096" duration="122000" />
+      <workItem from="1571857102720" duration="2185000" />
     </task>
     <servers />
   </component>
@@ -72,5 +78,18 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

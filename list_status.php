@@ -9,8 +9,9 @@
          mysql_connect($hostname, $username, $password);
          mysql_select_db($dbname);
          $id = $_POST['client_select'];
-         $query_list="SELECT `id`, `id_client`, `id_steps`, `id_result`, `date` FROM `list_status_process` WHERE id_client = $id";
+         $query_list="SELECT  * FROM `list_status_process` WHERE id_client = $id";
          $result_list = mysql_query($query_list);
+
          print ("<p align=center><font face=verdana><b>Список истории клиента $id</b>
                <table border=1 align=center>
                    <tr>
@@ -22,11 +23,11 @@
                    </tr>");
          while($rowstep = mysql_fetch_array($result_list))
                            {
-                             $id_step=$rowstep['id'];
-                             $id_cl=$rowstep['id_client'];
-                             $idsteps = $rowstep[`id_steps`];
-                             $id_result=$rowstep[`id_result`];
-                             $date=$rowstep[`date`];
+                             $id_step=$rowstep[id];
+                             $id_cl=$rowstep[id_client];
+                             $idsteps = $rowstep[id_steps];
+                             $id_result=$rowstep[id_result];
+                             $date=$rowstep[date];
 
                                    print ("<tr>
                                    <td>$id_step</td>
