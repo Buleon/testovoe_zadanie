@@ -19,7 +19,7 @@
        }
         }
      $query_new_proc = "INSERT INTO `list_status_process`(`id_client`, `id_steps`, `date`) VALUES ($option,$option_step,NOW())";
-     $result_new_proc = mysql_query ($query_new_proc);
+     $result_new_proc = mysql_query($query_new_proc);
 
      if ($result_new_proc == true)
      print ("<br>Данные занесены"); //Печать сообщения

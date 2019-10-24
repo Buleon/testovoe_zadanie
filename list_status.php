@@ -11,7 +11,6 @@
          $id = $_POST['client_select'];
          $query_list="SELECT  * FROM `list_status_process` WHERE id_client = $id";
          $result_list = mysql_query($query_list);
-
          print ("<p align=center><font face=verdana><b>Список истории клиента $id</b>
                <table border=1 align=center>
                    <tr>
