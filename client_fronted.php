@@ -40,19 +40,20 @@
 
 <?php
     if (isset($_POST['submit_1'])) {
-        echo "нажали кнопку 1";
+        echo "нажали кнопку 1 <br>";
         echo $id_list_process;
         $query = "UPDATE `karina_test`.`list_status_process` SET `id_result` = $a[0] WHERE `list_status_process`.`id` = $id_list_process";
         mysql_query($query);
         $result_new_proc = mysql_query($query);
             //ПРоверка запроса
-            if ($result_new_proc == true)
-            print ("<br>Данные занесены"); //Печать сообщения
+            if ($result_new_proc == true) {
+            print ("<br>Данные занесены"); } //Печать сообщения
             else {
             print ("<br>Данные не занесены");
             mysql_close(); }
             if (business_process_active_next($a[0])) {
                 //запускаем процесс созадние новой записи
+               echo "<br> Запускам новый процесс";
             }
 
         }
@@ -61,16 +62,16 @@
         $query = "UPDATE `karina_test`.`list_status_process` SET `id_result` = $a[2] WHERE `list_status_process`.`id` =$id_list_process";
         $result_new_proc = mysql_query($query);
                    //ПРоверка запроса
-            if ($result_new_proc == true)
-             print ("<br>Данные занесены"); //Печать сообщения
+            if ($result_new_proc == true) {
+             print ("<br>Данные занесены");} //Печать сообщения
              else
              print ("<br>Данные не занесены"); {
              mysql_close(); }
-             if (business_process_active_next($a[0])) {
-             //запускаем процесс созадние новой записи
-
-                         }
-                }
+              if (business_process_active_next($a[2])) {
+                //запускаем процесс созадние новой записи
+                 echo "<br> Запускам новый процесс";
+                          }
+            }
              ?>
           </fieldset>
           </form>

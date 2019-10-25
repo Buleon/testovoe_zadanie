@@ -13,9 +13,10 @@ function business_process_active($id_user) {
         }
 
 function business_process_active_next ($id_result) {
-$query ="SELECT `break` FROM `result_steps` WHERE id_result_steps = $id_result";
+$query ="SELECT `break` FROM `karina_test`.`result_steps` WHERE id_result_steps = $id_result";
 $result = mysql_query($query);
 $row = mysql_fetch_assoc($result);
+print mysql_error();
 if ($row[`break`] == 0) {
     return TRUE;
 }
@@ -23,4 +24,5 @@ else {
 return FALSE;
 }
 }
+
 ?>
