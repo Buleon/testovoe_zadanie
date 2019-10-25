@@ -52,7 +52,7 @@
             print ("<br>Данные не занесены");
             mysql_close(); }
             if (business_process_active_next($a[0])) {
-
+                //запускаем процесс созадние новой записи
             }
 
         }
@@ -64,9 +64,10 @@
             if ($result_new_proc == true)
              print ("<br>Данные занесены"); //Печать сообщения
              else
-             print ("<br>Данные не занесены"); {}
+             print ("<br>Данные не занесены"); {
              mysql_close(); }
              if (business_process_active_next($a[0])) {
+             //запускаем процесс созадние новой записи
 
                          }
                 }

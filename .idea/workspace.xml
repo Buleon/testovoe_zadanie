@@ -4,9 +4,6 @@
     <list default="true" id="71065ba3-eba4-4f53-96cd-71b713b38a71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client_fronted.php" beforeDir="false" afterPath="$PROJECT_DIR$/client_fronted.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_link_rezult.php" beforeDir="false" afterPath="$PROJECT_DIR$/get_link_rezult.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_status.php" beforeDir="false" afterPath="$PROJECT_DIR$/list_status.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_process_step.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_process_step.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +68,7 @@
       <workItem from="1571734374311" duration="7439000" />
       <workItem from="1571743497710" duration="23720000" />
       <workItem from="1571821215096" duration="122000" />
-      <workItem from="1571857102720" duration="16594000" />
+      <workItem from="1571857102720" duration="17420000" />
     </task>
     <servers />
   </component>
